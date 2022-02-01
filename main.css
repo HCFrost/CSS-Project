@@ -1,0 +1,179 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: monospace;
+  margin: 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 5%;
+  background-color: #00003f;
+  position: fixed;
+}
+
+nav img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: auto;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: auto;
+  margin: auto;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: auto;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#projectsTable {
+  background-color: #4355b8c4;
+  width: auto;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#projectsTable tr {
+  font-size: x-large;
+  width: auto;
+}
+
+#projectsTable tr td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: x-large;
+  padding: 1% 0;
+  margin: 0;
+  width: auto;
+}
+
+#projectsTable tr th {
+  border: 1px solid black;
+  padding: 1%;
+}
+
+#homeBody {
+  background: url("../HTML_Project/Pictures/67110554-fdea5400-f20d-11e9-834a-d459a612b7b1.gif") no-repeat center center fixed;
+  background-color: #202020;
+  background-size: cover;
+}
+
+#aboutBody {
+  background: url("../HTML_Project/Pictures/2471283.gif") no-repeat center center fixed;
+  background-color: #202020;
+  background-size: cover;
+}
+
+#skillsBody {
+  background: url("../HTML_Project/Pictures/204538-2261x1326-HTML.jpg") no-repeat center center fixed;
+  background-color: #202020;
+  background-size: cover;
+}
+
+#projectsBody {
+  background: url("../HTML_Project/Pictures/5da8e3b5a0ddfd9aff9277d494bef010.jpg") no-repeat center center fixed;
+  background-color: #202020;
+  background-size: cover;
+}
+
+#skillList {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  font-size: 2em;
+}
+
+#skillList li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #4355b8c4;
+  margin: 5px;
+  padding: 10px;
+}
+
+#skillList li img {
+  padding: 10px;
+  width: 25%;
+  height: auto;
+  margin: 5px;
+}
+
+#welcome {
+  font-size: 50px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 20%;
+}
+
+.navbar a {
+  color: #ffc402;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 5px 5px;
+}
+
+.navbar li:hover {
+  background-color: rgba(112, 128, 144, 0.342);
+}
+
+.content {
+  margin: 5%;
+  background: rgba(128, 128, 128, 0.555);
+  height: 100vh;
+  padding: 20px;
+  width: 50%;
+}
+
+.content h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
